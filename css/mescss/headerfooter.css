@@ -1,0 +1,78 @@
+header{
+    margin-bottom: 110px;
+}
+header>.ligne {
+    background-color: #A2323A;
+    margin-left: -20px;
+    position: fixed;
+    z-index: 3;
+}
+
+header>a>.logo {
+    width: 62px;
+    height: 62px;
+    top: 20px;
+    left: 30px;
+    z-index: 3;
+    position: fixed;
+}
+header>h1 {
+    font-size: 4rem;
+    color: white;
+
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 0 -20px;
+    padding: 0;
+    z-index: 3;
+    position: fixed;
+}
+
+footer>.ligne {
+    background-color: #A2323A;
+    box-shadow: 0 -4px 7px 1.8px black;
+    height: 80px;
+    margin-left: -20px;
+    width: 100%;
+    border-top: white 1px solid;
+    z-index: 1;
+    position: absolute;
+}
+
+footer img {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    z-index: 2;
+    bottom: 10px;
+}
+footer>.ligne>.gmail>img {
+    top: 2px;
+    right: 35px;
+}
+footer>.ligne>.mmilogofooter>img {
+    top: 2px;
+    right: 5px;
+}
+footer p{
+    position: absolute;
+    z-index: 2;
+    font-size: 1.3rem;
+    color: white;
+}
+footer p:first-child{
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+footer p:last-of-type{
+    text-align: center;
+    width: 100%;
+    margin-top: 9px;
+}
+footer>.ligne>p>a {
+    z-index: 2;
+    color: #f3c952;
+    text-decoration: underline;
+}
