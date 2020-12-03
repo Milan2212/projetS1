@@ -1,0 +1,116 @@
+.index>body>main {
+    position: relative;
+}
+.index .debut {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 600px;
+    right: 157px;
+}
+.index>body>main>.ironmanbg {
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.index>body>main>h3 {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: normal;
+    text-align: center;
+    top: 600px;
+}
+.index>body>main>a>.fa-arrow-circle-down {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    top: 665px;
+}
+
+.index main p {
+    font-size: 1.5rem;
+}
+.index main p:last-of-type{
+    margin-right: 3px;
+    margin-bottom: 30px;
+}
+.index main>.ironman img, .index main>.probleme img, .index main>.solutions img{
+    width: 257px;
+    height: 129px;
+    position: relative;
+}
+
+.index main>.probleme>.carrenoirpolution,.index main>.solutions>.carrenoirsolutions,.index main>.ironman>.carrenoirironman {
+    width: 254px;
+    height: 126px;
+    border: solid black 3px;
+}
+.index main>.ironman>.carrenoirironman {
+    position: absolute;
+    top: 1288px;
+    left: 7px;
+}
+.index main>.probleme>.carrenoirpolution {
+    position: absolute;
+    top: 1510px;
+    left: 71px;
+}
+.index main>.solutions>.carrenoirsolutions {
+    position: absolute;
+    top: 1760px;
+    left: 7px;
+}
+.index .probleme {
+    margin-left: 80px;
+}
+
+.index .arrondi {
+    width: 175px;
+    height: 50px;
+    box-sizing: border-box;
+    line-height: 100px;
+    background-color: mediumaquamarine;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 105px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+.index .arrondi h3 {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    margin-top: -27px;
+    font-size: 2.5rem;
+    color: white;
+}
+.index .ironman .arrondi {
+    background-color: #A83039;
+}
+.index .probleme .arrondi {
+    background-color: #2786E6;
+}
+.index .solutions .arrondi {
+    background-color: #F3C952;
+}
+.index .ironman p,.index .probleme p,.index .solutions p {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 250px;
+}
+.index .ironman p {
+    width: 220px;
+    margin-left: 20px;
+}
+/*.index main .fondrect {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: #E5FAFF;
+    z-index: 0;
+}

@@ -109,8 +109,11 @@
 }
 
 .menu .mmi {
-    transform: translateX(30px);
-    visibility: hidden;
+    transform: translateX(1000px);
+}
+.menu .ammi {
+    pointer-events: none;
+    cursor: default;
 }
 .menu-open .menu .mmi {
     width: 50px;
