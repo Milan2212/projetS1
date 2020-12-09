@@ -1,3 +1,7 @@
+/* PAGE INDEX */
+.index {
+    overflow-x: hidden;
+}
 .index>body>main {
     position: relative;
 }
@@ -42,27 +46,28 @@
     width: 257px;
     height: 129px;
     position: relative;
+    border: 3px black solid;
 }
 
 .index main>.probleme>.carrenoirpolution,.index main>.solutions>.carrenoirsolutions,.index main>.ironman>.carrenoirironman {
-    width: 254px;
-    height: 126px;
+    width: 257px;
+    height: 129px;
     border: solid black 3px;
 }
 .index main>.ironman>.carrenoirironman {
     position: absolute;
     top: 1288px;
-    left: 7px;
+    left: 10px;
 }
 .index main>.probleme>.carrenoirpolution {
     position: absolute;
-    top: 1510px;
-    left: 71px;
+    top: 1517px;
+    left: 69px;
 }
 .index main>.solutions>.carrenoirsolutions {
     position: absolute;
-    top: 1760px;
-    left: 7px;
+    top: 1768px;
+    left: 11px;
 }
 .index .probleme {
     margin-left: 80px;
@@ -107,10 +112,626 @@
     width: 220px;
     margin-left: 20px;
 }
-/*.index main .fondrect {
+.index main .fondrect {
     position: absolute;
     width: 100%;
-    height: 400px;
+    height: 550px;
+    margin-left: -20px;
+    margin-top: -10px;
+    padding-right: 40px;
     background-color: #E5FAFF;
-    z-index: 0;
+    z-index: -1;
+}
+.index main .fondrond {
+    position: absolute;
+    margin-top: 515px;
+    margin-left: -60px;
+    width: 4450px;
+    height: 50px;
+    border-radius: 300px / 50px;
+    background-color: #E5FAFF;
+    z-index: -1;
+}
+/* PAGE CONTACT */
+.contact {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.contact main h2 {
+    display: block;
+    width: 181px;
+    height: 67px;
+    border: 3px black solid;
+    text-align: center;
+    line-height: 67px;
+    font-size: 2.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+.contact main p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: -15px;
+}
+.contact main ul {
+    list-style: none;
+}
+.contact main input,.contact main textarea {
+    border-radius: 7px;
+    position: absolute;
+    right: 10px;
+    width: 280px;
+}
+.contact main li:nth-child(1)  {
+    margin-bottom: 40px;
+    margin-left: -15px;
+}
+.contact main li:nth-child(1) input  {
+    top: 310px;
+    left: 45px;
+}
+.contact main li:nth-child(2)  {
+    margin-bottom: 40px;
+    margin-left: -15px;
+}
+.contact main li:nth-child(2) input {
+    top: 376px;
+    left: 45px;
+}
+.contact main li:nth-child(3)  {
+    margin-bottom: 40px;
+    margin-left: -15px;
+}
+.contact main li:nth-child(3) input {
+    top: 440px;
+    left: 45px;
+}
+.contact main li:nth-child(4)  {
+    margin-bottom: 40px;
+    margin-left: -15px;
+}
+.contact main li:nth-child(4) textarea {
+    top: 508px;
+    left: 45px;
+    height: 95px;
+}
+.contact main li:nth-child(5)  {
+    margin-bottom: 225px;
+    margin-left: -15px;
+}
+.contact main li:nth-child(5) button{
+    position: absolute;
+    top: 640px;
+    left: 45px;
+    background-color: #A83039;
+    border: solid black 1px;
+    color: white;
+    height: 51px;
+    width: 175px;
+    border-radius: 40px;
+    font-family: "Bebas Neue";
+    font-size: 2.7rem;
+}
+.contact main .fondrond {
+    position: absolute;
+    top: 630px;
+    left: -20px;
+    transform: rotate(7deg);
+    margin-left: -20px;
+    width: 572px;
+    height: 190px;
+    border-radius: 300px / 50px;
+    background-color: #F3C952;
+    z-index: -1;
+}
+/* Autres Projets */
+.autres_projets {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.autres_projets main .carre {
+    display: block;
+    width: 181px;
+    height: 67px;
+    border: 3px black solid;
+    text-align: center;
+    line-height: 67px;
+    font-size: 2.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+.autres_projets main p {
+    font-size: 1.4rem;
+    margin-top: -15px;
+}
+.autres_projets main .presentation {
+    width: 200px;
+    text-align: right;
+}
+.autres_projets main .decouverte {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.autres_projets main>.carrenoir {
+    width: 115px;
+    height: 157px;
+    border: solid black 3px;
+    position: absolute;
+    right: 12px;
+    top: 219px;
+}
+.autres_projets main>.jonas {
+    width: 117px;
+    height: 159px;
+    position: absolute;
+    right: 22px;
+    top: 229px;
+    border: black solid 3px;
+}
+.autres_projets main>.bouton {
+    background-color: #2786E6;
+    border: solid black 1px;
+    color: white;
+    height: 51px;
+    width: 175px;
+    border-radius: 40px;
+    font-size: 2.7rem;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.autres_projets main>.bouton>a {
+    color: black;
+    position: relative;
+    left: 38px;
+    top: 4px;
+}
+.autres_projets>body>main>.apropos {
+    margin-top: 5px;
+}
+
+/* ARTICLE 3 */
+.solution {
+    overflow-x: hidden;
+}
+.solution main>img:first-of-type {
+    margin-left: -20px;
+    margin-top: -8px;
+}
+.solution main>h2:first-of-type {
+    font-size: 2.8rem;
+    text-align: center;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    color: white;
+}
+.solution main>h2 {
+    color: white;
+}
+.solution main>h3 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    color: white;
+}
+.solution main>p:first-of-type {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: white;
+}
+.solution main>.polution{
+    height: 263px;
+    width: 184px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 3px solid white;
+}
+.solution main>.bordernoir {
+    height: 263px;
+    width: 184px;
+    border: 3px solid white;
+    position: absolute;
+    top: 713px;
+    left: 102px;
+}
+.solution main>h4 {
+    margin-top: 5px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+.solution main>img:last-of-type {
+    width: 216px;
+    height: 144.5px;
+    margin-left: 95px;
+    margin-top: -20px;
+    border: 3px black solid;
+}
+.solution main>.p2 {
+    margin-top: -20px;
+    color: white;
+}
+.solution main>.p3 {
+    margin-top: 32px;
+    margin-bottom: 20px;
+
+}
+.solution main>.bordernoir2 {
+    border: 3px black solid;
+    width: 216px;
+    height: 144.5px;
+    position: absolute;
+    top: 1980px;
+    left: 125px;
+}
+.solution main>.bouton {
+    background-color: #A83039;
+    border: solid black 1px;
+    color: white;
+    height: 45px;
+    width: 260px;
+    border-radius: 40px;
+    font-size: 2.7rem;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.solution main>.bouton>a {
+    color: white;
+    display: block;
+    height:51px;
+    width: 260px;
+    text-align: center;
+}
+
+.solution .carrerouge {
+    background-color: #A83039;
+    height: 1550px;
+    width: 100%;
+    margin-left: -20px;
+    position: absolute;
+    z-index: -1;
+}
+.solution .rondrouge {
+    background-color: #A83039;
+    position: absolute;
+    margin-top: 1380px;
+    margin-left: -200px;
+    width: 700px;
+    height: 200px;
+    border-radius: 300px / 50px;
+    z-index: -1;
+}
+/* Homme en armure */
+.hommeenarmure {
+    overflow-x: hidden;
+}
+.hommeenarmure .carrerouge {
+    background-color: #A83039;
+    height: 1550px;
+    width: 100%;
+    margin-left: -20px;
+    position: absolute;
+    z-index: -1;
+}
+.hommeenarmure .rondrouge {
+    background-color: #A83039;
+    position: absolute;
+    margin-top: 1430px;
+    margin-left: -200px;
+    width: 700px;
+    height: 200px;
+    border-radius: 300px / 50px;
+    z-index: -1;
+}
+.hommeenarmure .headerim {
+    margin-left: -20px;
+    margin-top: -7px;
+}
+.hommeenarmure main>h2:first-of-type {
+    font-size: 2.8rem;
+    text-align: center;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    color: white;
+}
+.hommeenarmure main>h3 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    color: white;
+}
+.hommeenarmure main>p:first-of-type {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 0;
+    color: white;
+    margin-bottom: 22px;
+}
+.hommeenarmure main>.imgRDJr {
+    height: 128.5px;
+    width: 166px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 3px solid;
+}
+.hommeenarmure main>.bordernoir {
+    width: 166px;
+    height: 128.5px;
+    position: absolute;
+    border: white 3px solid;
+    top: 600px;
+    left: 112px;
+}
+.hommeenarmure main>.p2 {
+    margin-top: -18px;
+}
+.hommeenarmure main>blockquote {
+    border-left: 1px solid white;
+    padding-left: 10px;
+    margin-left: 12px;
+    font-size: 1.4rem;
+    color: white;
+}
+.hommeenarmure main>.stanlee {
+    width: 100px;
+    height: 134.5px;
+    margin-left: 200px;
+    margin-top: -20px;
+    border: 3px solid white;
+}
+.hommeenarmure main>.bordernoir2 {
+    width: 100px;
+    height: 134.5px;
+    border: 3px solid white;
+    position: absolute;
+    top: 1555px;
+    left: 230px;
+}
+.hommeenarmure main>.titre2,.hommeenarmure main>.p2,.hommeenarmure main>.p3 {
+    color: white;
+}
+.hommeenarmure main>h4 {
+    font-size: 1rem;
+}
+.hommeenarmure main>.stanleest {
+    text-align: right;
+    color: white;
+    width: 210px;
+    margin-top: -110px;
+    margin-bottom: 80px;
+    margin-left: -20px;
+}
+.hommeenarmure main>.p4 {
+    margin-top: -15px;
+}
+.hommeenarmure main>video {
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    border: 3px solid black;
+}
+.hommeenarmure main>.trailer {
+    text-align: center;
+    margin-top: 0;
+}
+.hommeenarmure main>.p5 {
+    margin-top: -20px;
+}
+.hommeenarmure main>.JARVIS {
+    width: 175px;
+    height: 175px;
+    margin-top: -25px;
+    margin-left: 140px;
+    border: 3px solid black;
+}
+.hommeenarmure main>.bordernoir3 {
+    width: 175px;
+    height: 175px;
+    border: 3px solid black;
+    position: absolute;
+    top: 3104px;
+    left: 170px;
+}
+.hommeenarmure main>.bouton {
+    background-color: #A83039;
+    border: solid black 1px;
+    color: black;
+    height: 100px;
+    width: 280px;
+    border-radius: 40px;
+    font-size: 2.7rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+.hommeenarmure main>.bouton>a {
+    height: 40px;
+    width: 260px;
+    top: 2572px;
+    left: 51px;
+    color: white;
+}
+.hommeenarmure main>.films {
+    text-align: center;
+}
+/* PROBLEMES CAUSES PAR L'INTELLIGENCE ARTIFICIELLE */
+.problemesia {
+    overflow-x: hidden;
+}
+.problemesia .headerpol {
+    margin-left: -20px;
+    margin-top: -7px;
+}
+.problemesia main>h2:first-of-type {
+    font-size: 2.8rem;
+    text-align: center;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    color: black;
+}
+.problemesia main>p:first-of-type {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 0;
+    color: black;
+    margin-bottom: 22px;
+}
+.problemesia main>h3:first-of-type {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    color: black;
+}
+.problemesia main>.polution{
+    height: 263px;
+    width: 184px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 3px solid black;
+}
+.problemesia main>.bordernoir {
+    height: 263px;
+    width: 184px;
+    border: 3px solid black;
+    position: absolute;
+    top: 700px;
+    left: 102px;
+}
+.problemesia main>.titre3 {
+    font-size: 2.3rem;
+}
+.problemesia main>.alphago {
+    width: 224px;
+    height: 139.5px;
+    border: 3px black solid;
+    margin-top: 15px;
+}
+.problemesia main>.bordernoir2 {
+    width: 224px;
+    height: 139.5px;
+    border: 3px black solid;
+    position: absolute;
+    left: 30px;
+    top: 1640px;
+}
+.problemesia main>.bouton {
+    background-color: #F3C952;
+    border: solid black 1px;
+    color: black;
+    height: 100px;
+    width: 230px;
+    border-radius: 40px;
+    font-size: 2.7rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.problemesia main>.bouton>a {
+    height: 40px;
+    width: 260px;
+    top: 2572px;
+    left: 51px;
+    color: white;
+}
+.problemesia main>.artsci {
+    color: white;
+}
+.problemesia .artsci>h2:first-of-type {
+    text-decoration: underline;
+}
+.problemesia .introasc {
+    font-size: 1.4rem;
+    margin-top: -20px;
+}
+.problemesia .articlesc {
+    margin-bottom: -10px;
+}
+.problemesia main h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.problemesia .AS1, .problemesia .AS2,.problemesia .AS3,.problemesia .AS4,.problemesia .AS5,.problemesia .AS7,.problemesia .AS8 {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.problemesia .imgas1,.problemesia .imgas2,.problemesia .imgas3,.problemesia .imgas4,.problemesia .imgas5,.problemesia .imgas7,.problemesia .imgas8 {
+    text-align: center;
+    margin-top: 5px;
+}
+.problemesia main .AS6 {
+    width: 90%;
+    position: relative;
+    margin-left: 37px;
+    top: -21px;
+}
+.problemesia main .bouton2 {
+    background-color: #F3C952;
+    border: solid black 1px;
+    color: black;
+    height: 90px;
+    width: 220px;
+    font-size: 2.7rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.problemesia main .bouton2>a {
+    display: block;
+    height: 80px;
+    width: 200px;
+    margin: auto;
+    color: white;
+}
+.problemesia .carrerouge {
+    background-color: #A83039;
+    height: 3640px;
+    width: 100%;
+    margin-left: -20px;
+    position: absolute;
+    z-index: -1;
+}
+.problemesia .rondrouge {
+    background-color: #A83039;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -150px;
+    width: 700px;
+    height: 200px;
+    border-radius: 300px / 50px;
+    z-index: -1;
 }

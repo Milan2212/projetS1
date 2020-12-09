@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="contact">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -36,26 +36,39 @@
     </nav>
 </header>
 <main>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque impedit mollitia nam perferendis quae quam quisquam sed. A aliquam dignissimos
-        iusto perspiciatis porro quod quos, ratione reiciendis sunt tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, amet at
-        consequatur dolore eaque, et exercitationem, id laudantium molestias mollitia officiis placeat quia quidem similique ullam voluptatibus. Odit, recusandae.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque impedit mollitia nam perferendis quae quam quisquam sed. A aliquam dignissimos
-        iusto perspiciatis porro quod quos, ratione reiciendis sunt tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, amet at
-        consequatur dolore eaque, et exercitationem, id laudantium molestias mollitia officiis placeat quia quidem similique ullam voluptatibus. Odit, recusandae.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque impedit mollitia nam perferendis quae quam quisquam sed. A aliquam dignissimos
-        iusto perspiciatis porro quod quos, ratione reiciendis sunt tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, amet at
-        consequatur dolore eaque, et exercitationem, id laudantium molestias mollitia officiis placeat quia quidem similique ullam voluptatibus. Odit, recusandae.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque impedit mollitia nam perferendis quae quam quisquam sed. A aliquam dignissimos
-        iusto perspiciatis porro quod quos, ratione reiciendis sunt tempora?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, amet at
-        consequatur dolore eaque, et exercitationem, id laudantium molest</p>
+    <h2>Contact</h2>
+    <p>Vous avez une question à me poser ou vous souhaitez faire une remarque ? <br>Remplissez le formulaire ci-dessous !</p>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+                <label for="name">Prénom :</label>
+                <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+                <label for="mail">E-mail :</label>
+                <input type="email" id="mail" name="user_mail" />
+            </li>
+            <li>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Envoyer</button>
+            </li>
+        </ul>
+    </form>
+    <div class="fondrond"></div>
 </main>
 <footer>
-    <div class="ligne">
-        <p>MORISOT <br>Jonas <br>B2</p>
-        <p>Projet réalisé dans le cadre d'un<br>exercice pédagogique au département<br><a href="http://mmimontbeliard.com/" target="_blank">MMI Montbéliard</a></p>
-        <a href="mailto:milanmorisot@gmail.com" target="_blank" class="gmail"><img src="img/gmail.png" alt="Icône Gmail"></a>
-        <a href="http://mmimontbeliard.com/" target="_blank" class="mmilogofooter"><img src="img/MMi-logo.png" alt="Icône MMI Montbéliard"></a>
-    </div>
+    <div class="ligne"></div>
+    <p>MORISOT <br>Jonas <br>B2</p>
+    <p>Projet réalisé dans le cadre d'un<br>exercice pédagogique au département<br><a href="http://mmimontbeliard.com/" target="_blank">MMI Montbéliard</a></p>
+    <a href="mailto:milanmorisot@gmail.com" target="_blank" class="gmail"><img src="img/gmail.png" alt="Icône Gmail"></a>
+    <a href="http://mmimontbeliard.com/" target="_blank" class="mmilogofooter"><img src="img/MMi-logo.png" alt="Icône MMI Montbéliard"></a>
 </footer>
 </body>
 </html>

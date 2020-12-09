@@ -31,8 +31,8 @@ header>h1 {
 
 footer>.ligne {
     background-color: #A2323A;
-    box-shadow: 0 -4px 7px 1.8px black;
-    height: 80px;
+    box-shadow: 0 -4px 10px 1px black;
+    height: 85px;
     margin-left: -20px;
     width: 100%;
     border-top: white 1px solid;
@@ -47,31 +47,39 @@ footer img {
     z-index: 2;
     bottom: 10px;
 }
-footer>.ligne>.gmail>img {
-    top: 2px;
-    right: 35px;
+footer .gmail>img {
+    position: relative;
+    top: 10px;
+    left: 300px;
+    z-index: 1;
 }
-footer>.ligne>.mmilogofooter>img {
-    top: 2px;
-    right: 5px;
+footer .mmilogofooter>img {
+    top: 10px;
+    left: 300px;
+    position: relative;
+    z-index: 1;
 }
 footer p{
     position: absolute;
     z-index: 2;
     font-size: 1.3rem;
     color: white;
+    margin-left: -10px;
+    z-index: 1;
 }
 footer p:first-child{
     text-align: left;
     margin-top: 3px;
     margin-left: 10px;
+    z-index: 1;
 }
 footer p:last-of-type{
     text-align: center;
     width: 100%;
-    margin-top: 9px;
+    margin-top: 13px;
+    margin-left: -20px;
 }
-footer>.ligne>p>a {
+footer p>a {
     z-index: 2;
     color: #f3c952;
     text-decoration: underline;
