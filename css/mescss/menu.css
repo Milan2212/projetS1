@@ -122,10 +122,10 @@
 .menu-open .menu .mmi {
     width: 50px;
     height: 50px;
-    bottom: 60px;
-    position: absolute; /* postulat de départ */
-    left: 50%; /* à 50%/50% du parent référent */
-    transform: translate(-50%); /* décalage de 50% de sa propre taille */
+    margin-top: 260px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     opacity: 1;
     visibility: visible;
 }

@@ -8,7 +8,7 @@ header>.ligne {
     z-index: 3;
 }
 
-header>a>.logo {
+header>.logo {
     width: 62px;
     height: 62px;
     top: 20px;
@@ -16,7 +16,7 @@ header>a>.logo {
     z-index: 3;
     position: fixed;
 }
-header>h1 {
+header h1 {
     font-size: 4rem;
     color: white;
 

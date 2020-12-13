@@ -50,24 +50,20 @@
 }
 
 .index main>.probleme>.carrenoirpolution,.index main>.solutions>.carrenoirsolutions,.index main>.ironman>.carrenoirironman {
-    width: 257px;
+    width: 263px;
     height: 129px;
-    border: solid black 3px;
 }
 .index main>.ironman>.carrenoirironman {
     position: absolute;
     top: 1288px;
-    left: 10px;
 }
 .index main>.probleme>.carrenoirpolution {
     position: absolute;
     top: 1517px;
-    left: 69px;
 }
 .index main>.solutions>.carrenoirsolutions {
     position: absolute;
     top: 1768px;
-    left: 11px;
 }
 .index .probleme {
     margin-left: 80px;
@@ -81,8 +77,8 @@
     background-color: mediumaquamarine;
     border: 2px solid black;
     border-radius: 50px;
-    margin-top: 105px;
-    margin-left: 30px;
+    margin-top: 115px;
+    margin-left: auto;
     margin-bottom: 20px;
     margin-right: auto;
 }
@@ -106,7 +102,7 @@
 .index .ironman p,.index .probleme p,.index .solutions p {
     font-size: 1.4rem;
     text-align: center;
-    width: 250px;
+    width: 263px;
 }
 .index .ironman p {
     width: 220px;
@@ -134,7 +130,6 @@
 }
 /* PAGE CONTACT */
 .contact {
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 .contact main h2 {
@@ -220,7 +215,7 @@
     transform: rotate(7deg);
     margin-left: -20px;
     width: 572px;
-    height: 190px;
+    height: 150px;
     border-radius: 300px / 50px;
     background-color: #F3C952;
     z-index: -1;
@@ -228,7 +223,6 @@
 /* Autres Projets */
 .autres_projets {
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 .autres_projets main .carre {
     display: block;
@@ -240,7 +234,6 @@
     font-size: 2.8rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -10px;
 }
 .autres_projets main p {
     font-size: 1.4rem;
@@ -257,7 +250,6 @@
 .autres_projets main>.carrenoir {
     width: 115px;
     height: 157px;
-    border: solid black 3px;
     position: absolute;
     right: 12px;
     top: 219px;
@@ -266,8 +258,8 @@
     width: 117px;
     height: 159px;
     position: absolute;
-    right: 22px;
-    top: 229px;
+    right: 15px;
+    top: 220px;
     border: black solid 3px;
 }
 .autres_projets main>.bouton {
@@ -288,7 +280,7 @@
     top: 4px;
 }
 .autres_projets>body>main>.apropos {
-    margin-top: 5px;
+    margin-top: 120px;
 }
 
 /* ARTICLE 3 */
@@ -308,11 +300,16 @@
     width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -10px;
     color: white;
+    height: 95px;
+    padding-top: 20px;
+    margin-top: -20px;
 }
 .solution main>h2 {
     color: white;
+}
+.solution main>h2:last-of-type {
+    color: black;
 }
 .solution main>h3 {
     text-align: center;
@@ -412,6 +409,13 @@
     border-radius: 300px / 50px;
     z-index: -1;
 }
+.solution main>video {
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
 /* Homme en armure */
 .hommeenarmure {
     overflow-x: hidden;
@@ -447,8 +451,10 @@
     width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -10px;
     color: white;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: -20px;
 }
 .hommeenarmure main>h3 {
     text-align: center;
@@ -553,7 +559,7 @@
     background-color: #A83039;
     border: solid black 1px;
     color: black;
-    height: 100px;
+    height: 115px;
     width: 280px;
     border-radius: 40px;
     font-size: 2.7rem;
@@ -562,13 +568,14 @@
     margin-right: auto;
     margin-bottom: 25px;
     text-align: center;
-    padding-top: 10px;
 }
 .hommeenarmure main>.bouton>a {
     height: 40px;
     width: 260px;
-    top: 2572px;
-    left: 51px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 14px;
     color: white;
 }
 .hommeenarmure main>.films {
@@ -591,8 +598,10 @@
     width: 270px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -10px;
     color: black;
+    height: 90px;
+    padding-top: 20px;
+    margin-top: -20px;
 }
 .problemesia main>p:first-of-type {
     text-align: center;
